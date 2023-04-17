@@ -18,7 +18,6 @@ public class Exercise2Inheritance : MonoBehaviour
 
 To create a derived class, the : character is used, followed by the name of the base class. For example:
 
-
 class DerivedClass : BaseClass
     {
         // members of the derived class

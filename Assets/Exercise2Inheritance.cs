@@ -24,7 +24,6 @@ class DerivedClass : BaseClass
         // members of the derived class
     }
 
-
     The derived class can access the members of the base class, including public and protected members, 
     as if they were defined in the derived class itself. Private members of the base class cannot be accessed 
     by the derived class.

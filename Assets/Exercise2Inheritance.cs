@@ -1,12 +1,4 @@
-using OpenCover.Framework.Model;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime.Tree;
-using Unity.VisualScripting;
-using UnityEditor.Presets;
 using UnityEngine;
-using static UnityEngine.UIElements.UxmlAttributeDescription;
 
 public class Exercise2Inheritance : MonoBehaviour
 {

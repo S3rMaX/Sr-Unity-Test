@@ -1,0 +1,20 @@
+[
+    {
+        "cardName": "H - Ancient Shield",
+        "rarity": "Epic",
+        "category": "Shield",
+        "sprite": "ancient_shield"
+    },
+    {
+        "cardName": "H - Bird Helmet",
+        "rarity": "Epic",
+        "category": "Helmet",
+        "sprite": "bird_helmet"
+    },
+    {
+        "cardName": "H - Bounty Hunter Cloak",
+        "rarity": "Epic",
+        "category": "Magic",
+        "sprite": "black_magic_ring"
+    }
+]

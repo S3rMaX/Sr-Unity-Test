@@ -6,8 +6,8 @@ namespace DTOs
     public class CardDTO
     {
         public string cardName;
+        public int level;
         public string rarity;
-        public string category;
         public string sprite;
     }
 }

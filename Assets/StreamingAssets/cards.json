@@ -1,20 +1,31 @@
 [
     {
         "cardName": "H - Ancient Shield",
+        "level": 1,
         "rarity": "Epic",
-        "category": "Shield",
         "sprite": "ancient_shield"
     },
     {
         "cardName": "H - Bird Helmet",
         "rarity": "Epic",
-        "category": "Helmet",
         "sprite": "bird_helmet"
     },
     {
         "cardName": "H - Bounty Hunter Cloak",
+        "level": 1,
         "rarity": "Epic",
-        "category": "Magic",
+        "sprite": "black_magic_ring"
+    },
+    {
+        "cardName": "H - Butcher Knife",
+        "level": 1,
+        "rarity": "Epic",
+        "sprite": "black_magic_ring"
+    },
+    {
+        "cardName": "H - Magic Wand",
+        "level": 1,
+        "rarity": "Epic",
         "sprite": "black_magic_ring"
     }
 ]

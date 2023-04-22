@@ -5,8 +5,8 @@ using System.Linq;
 using DTOs;
 using Inventory.Cards;
 using UnityEngine;
-using UnityEngine.UI;
 using Utils;
+using Views;
 
 public class CardsDataManager : MonoBehaviour
 {
@@ -47,9 +47,16 @@ public class CardsDataManager : MonoBehaviour
                 Debug.Log($"{newCard.cardName} LEVEL: {newCard.level} RARITY: {newCard.rarity} SPRITE: {newCard.sprite}");
                 
                 // Instantiate InventoryItem prefab and set card data
-                var inventoryItem = Instantiate(inventoryItemPrefab, inventoryContainer.transform);
-                inventoryItem.GetComponentInChildren<Image>().sprite = newCard.sprite;
-                inventoryItem.GetComponentInChildren<Text>().text = newCard.cardName;
+                var inventoryItem = Instantiate(inventoryItemPrefab, inventoryContainer.transform).GetComponent<InventoryItemView>();
+                inventoryItem.item.sprite = newCard.sprite;
+                //inventoryItem.background.sprite = newCard.sprite;
+                for (int i = 0; i < newCard.level; i++)
+                {
+                    if (newCard.level > inventoryItem.stars.Length)return;
+                    
+                    inventoryItem.stars[i].gameObject.SetActive(true);
+                }
+                
             }
         }
     }

@@ -7,24 +7,25 @@
     },
     {
         "cardName": "H - Bird Helmet",
+        "level": 3,
         "rarity": "Epic",
         "sprite": "bird_helmet"
     },
     {
         "cardName": "H - Bounty Hunter Cloak",
-        "level": 1,
+        "level": 2,
         "rarity": "Epic",
         "sprite": "black_magic_ring"
     },
     {
         "cardName": "H - Butcher Knife",
-        "level": 1,
+        "level": 4,
         "rarity": "Epic",
         "sprite": "black_magic_ring"
     },
     {
         "cardName": "H - Magic Wand",
-        "level": 1,
+        "level": 5,
         "rarity": "Epic",
         "sprite": "black_magic_ring"
     }
